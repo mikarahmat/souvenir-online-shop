@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.video_sec {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.video_sec video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: brightness(0.45);
+}
+
+.video_sec .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1.5px solid rgba(255, 255, 255, 0.585);
+  padding: 30px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 1px 10px 49px 1px rgba(255, 255, 255, 0.55);
+  -webkit-box-shadow: 1px 10px 49px 1px rgba(255, 255, 255, 0.55);
+  -moz-box-shadow: 1px 10px 49px 1px rgba(255, 255, 255, 0.55);
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.585);
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-group input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.register-btn {
+  background-color: #00000000;
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.585);
+  padding: 10px 20px;
+  font-family: "Ubuntu", sans-serif !important;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 40%;
+}
+
+.register-btn:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.login-link {
+  margin-top: 15px;
+  display: block;
+  color: #ffffff;
+}
+
+.login-link:hover {
+  color: #000000;
+}

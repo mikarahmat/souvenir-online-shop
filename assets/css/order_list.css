@@ -1,0 +1,79 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: #f4fdff;
+    padding-top: 100px; /* Adjust based on navbar height */
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 32px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.order-section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f4fdff;
+}
+
+.confirm-btn,
+.cancel-btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.cancel-btn {
+    background-color: #dc3545;
+}
+
+.confirm-btn:hover,
+.cancel-btn:hover {
+    opacity: 0.8;
+}
